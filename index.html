@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhashini Language Dropdown</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    h1 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Bhashini plugin will inject the button + dropdown here -->
+  <div class="bhashini-plugin-container"></div>
+
+  <h1>Welcome to My Website</h1>
+  <p>This page supports real-time translation into Indian languages using Bhashini.</p>
+
+  <!-- Bhashini Plugin Script -->
+  <script id="bhashini-plugin"
+    src="https://plugin.bhashini.gov.in/bhashini-translation-plugin.js"
+    data-config='{
+      "pluginType": "dropdown",
+      "language": "en",
+      "theme": "light"
+    }'>
+  </script>
+
+</body>
+</html>
